@@ -23,7 +23,10 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 // Education Section Logo's
 import iiitranchi from './assets/education_logo/iiitranchi.jpeg';
 
-
+// Project Section Logo's
+import ecommerceLogo from './assets/work_logo/e-commerce.jpg';
+import emsLogo from './assets/work_logo/ems.jpg';
+import portfolioLogo from './assets/work_logo/portfolio.jpg';
 
 export const SkillsInfo = [
   {
@@ -80,4 +83,45 @@ export const SkillsInfo = [
       degree: "Bachelor of Technology(B.Tech) in Computer Science and Engineering(CSE) ",
     },
   ];
+
+  export const projects = [
+    {
+      id: 0,
+      title: "Full-Stack E-Commerce Website",
+      description:
+        "I developed and deployed a full-stack e-commerce application using React.js, Node.js, Express.js, and MongoDB, hosted on Vercel. The app includes features like product browsing, filtering, cart management, secure checkout with Stripe/Razorpay/COD, and an admin dashboard for managing products and orders. It also provides a responsive UI and secure APIs for authentication, users, and orders.",
+      image: ecommerceLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
+      github: "https://github.com/santoshraj8804/forever_e-commerce_website_full_stack",
+    },
+    {
+      id: 1,
+      title: "MERN Stack Employee Management System",
+      description:
+        "I built a MERN-Stack Employee Management System with secure authentication and role-based access for admins and employees. It features admin and employee dashboards, CRUD operations for employees/departments/salaries, and a leave management system with request, approval, and tracking. The project is organized with a scalable file structure and RESTful APIs for efficient backend operations.",
+      image: emsLogo,
+      tags: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React JS", "Node.js", "MongoDB", "Express.js"],
+      github: "https://github.com/santoshraj8804/employee-frontend",
+      github: "https://github.com/santoshraj8804/employee-backend",
+    },
+    {
+      id: 2,
+      title: "Portfolio Website",
+      description:
+        "I developed a personal portfolio website using React.js, Tailwind CSS, and JavaScript to showcase my projects, skills, and experience. The site features a responsive design, smooth navigation, and interactive UI elements. It is optimized for performance and deployed online for easy accessibility.",
+      image: portfolioLogo,
+      tags: ["React JS", "HTML", "CSS", "JavaScript", "Tailwind CSS", "Node.js"],
+      github: "https://github.com/santoshraj8804/portfolio",
+    },
+   ];  
+
+
+
+
+
+
+
+
+
+
   
