@@ -85,7 +85,7 @@ export const SkillsInfo = [
   ];
 
   export const projects = [
-    {
+    { 
       id: 0,
       title: "Full-Stack E-Commerce Website",
       description:
